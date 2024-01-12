@@ -9,7 +9,7 @@ const SuperAdminRoute = require("./superAdmin");
 
 // adding routes to files
 router.get("/", (req, res) => {
-    res.send("Welcome to Alumnai website");
+    res.send("Welcome to Alumnai website 🎉🎉");
 })
 // user
 router.use("/api/user", UserRoute)
